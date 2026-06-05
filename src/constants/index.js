@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg"
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 
 
@@ -19,7 +20,7 @@ I am always eager to learn new technologies, improve my skills, and contribute t
 // 
 
 export const EXPERIENCES = [
-{
+  {
     year: "2025 - 2026",
     role: "Full Stack Java Developer (Hands-on Training & Projects)",
     company: "Hefshine Softwares, Pune",
@@ -31,21 +32,21 @@ export const EXPERIENCES = [
     role: "Freelance Web Developer",
     company: "Self-Employed",
     description: `Delivered customized academic projects for MCA students. Modified and enhanced project structures, built JSP-based web pages, configured MySQL databases, and ensured complete functionality across front-end, back-end, and database integration.`,
-    technologies: ["HTML", "CSS", "JSP", "Java", "MySQL","Hibernate","SpringBoot","Android"],
+    technologies: ["HTML", "CSS", "JSP", "Java", "MySQL", "Hibernate", "SpringBoot", "Android"],
   },
- 
+
 ];
 
 
 export const PROJECTS = [
- {
-  title: "(EMS) Employee Management System",
-  image: project1,
-  description:
-    "A full-stack Employee Management System designed to manage employee data efficiently. The application supports CRUD operations, secure authentication, and RESTful API integration. It features a responsive user interface and ensures smooth interaction between frontend and backend systems.",
-  technologies: ["HTML", "CSS", "Bootstrap", "Java", "Spring Boot", "Hibernate", "MySQL"],
-},
-  
+  {
+    title: "(EMS) Employee Management System",
+    image: project1,
+    description:
+      "A full-stack Employee Management System designed to manage employee data efficiently. The application supports CRUD operations, secure authentication, and RESTful API integration. It features a responsive user interface and ensures smooth interaction between frontend and backend systems.",
+    technologies: ["HTML", "CSS", "Bootstrap", "Java", "Spring Boot", "Hibernate", "MySQL"],
+  },
+
   {
     title: "Portfolio Website",
     image: project2,
@@ -54,15 +55,33 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
 
-   {
-     title: "Job Portal",
+  {
+    title: "Job Portal",
     image: project3,
     description:
       "Developed a scalable Job Portal application with functionalities such as user registration, job posting, job search, and application management. Designed RESTful APIs using Spring Boot and integrated database operations for efficient data handling.",
     technologies: ["Java", "Spring Boot", "Hibernate", "MySQL", "REST API"]
-   },
+  },
 
-   
+  {
+    title: "Ground Booking System",
+    image: project4,
+    description: `Developed an online platform for users to reserve sports grounds with real-time booking management.
+    Implemented secure user authentication, booking and payment functionalities.
+    Built REST APIs using Spring Boot and integrated responsive React frontend.
+    Designed MySQL database for managing users, bookings and payment records.`,
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Bootstrap"
+    ],
+  },
+
+
+
 
 ];
 
